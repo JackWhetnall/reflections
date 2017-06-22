@@ -8,4 +8,9 @@ When a repository is initialised it creates a (hidden) .git file that tracks the
 The staging area is a bridge between the working directory and the repository. It is where files to be committed are placed before the commit is completed.
 
 
+--- How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area lets you see and decide which files are about to be committed, meaning you can choose which ones needed to be commited for a particular logical change point.
+
+
 --- 
