@@ -1,0 +1,35 @@
+fc (stands for file compare) followed by the names of two files compares them to see which differences there are between the two versions.
+
+--- How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was easy to see which lines had been changes, therefore the number of lines needed to search for the error was greatly reduced, meaning the bug could be found much more quickly.
+
+
+--- How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to a file's history means that the new file can be easily comapred with or restored to an old version in the case that the new version is in some way faulty.
+
+
+--- What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The problem with automatic saving is that the file may be saved at points where it does not compile or is unusable. This is fixed by manual saving at appropriate times, but this requires the user to back up regularly.
+
+
+--- Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Saving multiple interlinked files is useful when they interact with each other or share ertain components. However, with things like Google Docs it can sometimes be beneficial to save the files seperatesly, for example when two different people are working on different files at the same time.
+
+
+--- How can you use the commands git log and git diff to view the history of files?
+Open cmd, navigate to directory, git log gives list of revisions, q to exit, git diff followed by two commit ids shows you that changes between them.
+
+
+--- How might using version control make you more confident to make changes that could break something?
+If something gets broken then it is possible to restore to a state where everything worked. This means there is much less risk of making significant changes to the program.
+
+
+---
+
+
+
+
+
+
