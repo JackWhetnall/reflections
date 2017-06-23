@@ -13,4 +13,11 @@ The staging area is a bridge between the working directory and the repository. I
 The staging area lets you see and decide which files are about to be committed, meaning you can choose which ones needed to be commited for a particular logical change point.
 
 
---- 
+--- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help by allowing different 'paths' of saves to be created (for example when creating different simultaneous versions of the same thing). This allows one version to be editted without affecting the other files on different branches.
+
+
+--- How do the diagrams help you visualize the branch structure?
+
+It's like a tree, twigs cant reach other twigs because reachability only flows towards the root.
